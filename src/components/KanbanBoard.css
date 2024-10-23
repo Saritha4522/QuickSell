@@ -1,0 +1,28 @@
+/* KanbanBoard.css */
+.kanban-board {
+  display: flex;
+  background-color: #f4f6fa;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* gap: 12%; */
+}
+
+.kanban-column {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-column h3 {
+  font-size: 18px;
+  margin: 0; /* Remove margin to avoid extra spacing */
+  text-align: left; /* Align title to the left */
+  color: #333;      /* Keep the text color simple */
+  font-weight: bold;
+}
+
+.kanban-card {
+  margin-bottom: 16px;
+  width: 100%;
+}

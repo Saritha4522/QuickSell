@@ -1,0 +1,59 @@
+.ticket {
+    background-color: #fff; /* Background for each ticket */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    min-width: 400px; 
+}
+
+.ticket-header {
+    display: flex;
+    justify-content: space-between; /* Aligns title and profile image on opposite ends */
+    align-items: flex-start; /* Align to the top */
+    margin-bottom: 8px; /* Space between header and content */
+}
+
+.ticket-id {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    position: absolute; /* Position ID at the top */
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+}
+
+.profile-image {
+    width: 30px; 
+    height: 30px;
+    background-color: #ccc; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white; /* Initials color */
+    margin-left: 8px; /* Space between title and initials */
+    overflow: hidden; /* Hide any overflow to maintain the circle */
+}
+
+
+
+.ticket h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 18px;
+}
+
+.ticket-tags {
+    display: inline-block; /* Makes the box fit the content */
+    padding: 4px 8px; /* Adds some padding inside the box */
+    background-color: #f0f0f0; /* Light background color for the box */
+    border: 1px solid #ccc; /* Border around the box */
+    border-radius: 4px; /* Slightly round the corners */
+    font-size: 12px; /* Font size for the tags */
+    color: #333; /* Text color */
+    margin-top: 8px; /* Space above the tag box */
+}
